@@ -39,7 +39,8 @@ void quick_sort_rec(int *array, int lower, int higher, size_t size)
 }
 
 /**
- * lomuto_partion - ...
+ * lomuto_partition - implements the lomuto partition scheme(sorts an array by
+ * dividing into partition)
  * @array: array to be considered
  * @size: size of array
  * @higher: higher element
